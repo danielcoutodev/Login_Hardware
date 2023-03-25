@@ -10,44 +10,52 @@ body {
 }
 
 header{
-    background-image: linear-gradient(rgb(9, 95, 38),rgb(34, 34 ,34));
+    background-image: linear-gradient(to bottom,rgb(9, 95, 38),rgb(1, 29, 5));
+    height: 25vh;
+    padding-top: 20px;
 }
+
 
 header h1{
+    font-size: 30px;
     text-align: center;
     color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.527);
 }
 
-li{
+header ul{
+    padding-top: 20px;
+}
+
+
+header > ul > li{
+    margin: 3px;
+    padding: 4px;
     display: inline-block;
-    margin: 8px;
-    
+    border: 2px solid rgba(0, 128, 0, 0.945);
+    border-radius: 15px;
 }
-
-li > a{
+header > ul > li > a{
+    color: rgb(0, 168, 0);
     text-decoration: none;
-    color: rgb(184, 255, 209);
-    border: 2px solid rgb(9, 136, 51);
-    border-radius: 20px;
-    padding: 5px;
 }
 
-li > a:hover{
-    background-color: rgb(9, 136, 51);
-    color: white;
+header > ul > li > a:hover{
+    color: rgb(4, 209, 4);
     font-weight: bolder;
-    transition: .4s all;
+    text-decoration: none;
 }
 
-ul{
-    padding-top: 10px;
+header > div{
     margin: auto;
 }
+
 
 main > aside > h2{
     padding: 20px;
     text-align: center;
     color: white;
+    text-shadow: 3px 3px 3px rgba(0, 128, 0, 0.418);
 }
 
 span{
@@ -55,15 +63,55 @@ span{
     font-weight: 200px;
 }
 
-p{
-    background-color: rgba(255, 255, 255, 0.555);  
-    border-radius: 10px;  
-    width: 400px;
+p.textmain{
+    width: 80vw;
+    background-color: rgba(0, 128, 0, 0.651);       
+    max-width: 450px;
     margin: auto;
     padding: 10px;
-    
+    box-shadow: 0px 0px 5px rgba(0, 128, 0, 0.651);
 }
 
-img{
-    padding-top: 20px;
+article img{
+    display: block;
+    margin: 1em auto;
+    width: 80vw;
+    max-width: 450px;
+    height: 50vh;
+    box-shadow: 0px 0px 5px rgba(0, 128, 0, 0.651);
+}
+
+.btn{
+    display: block;
+    margin: 30px auto;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid rgb(11, 167, 63);
+    width: 50vw;
+    max-width: 400px;
+    padding: 15px 5px;
+    border-radius: 15px;
+    color: rgb(9, 136, 51);
+    box-shadow: 0px 0px 5px rgba(0, 128, 0, 0.651);
+    text-shadow: 0px 0px 5px rgba(0, 128, 0, 0.295);
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(11, 230, 84);
+    width: 55vw;
+    font-weight: bolder;
+    box-shadow: 0px 0px 51px rgba(0, 128, 0, 0.651);
+}
+
+footer{
+    height: 40px;
+    padding-top: 50px;
+    padding-bottom: 2px;
+}
+
+footer > p{
+    padding: 0px 20px 20px 20px;
+    color: rgb(9, 95, 38);
+    font-weight: bold;
 }
