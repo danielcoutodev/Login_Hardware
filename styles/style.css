@@ -7,6 +7,7 @@
 
 body {
     background-color: rgb(34, 34 ,34);
+    overflow-x: hidden;
 }
 
 header{
@@ -51,7 +52,7 @@ header > div{
 }
 
 
-main > aside > h2{
+main > h2{
     padding: 20px;
     text-align: center;
     color: white;

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 852px) {
+
+    header{
+        height: 15vh;
+    }
+
+    header > div{
+        float: left;
+        padding-left: 30px;
+    }
+    header > ul{
+        float: right;
+        padding-right: 30px;
+    }
+}
